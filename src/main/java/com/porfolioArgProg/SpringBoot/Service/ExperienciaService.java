@@ -15,7 +15,7 @@ public class ExperienciaService{
     public ExperienciaService() {
     }
 
-    public void addExperiencia(Experienciaa experiencia){
+    public void addExperiencia(Experiencia experiencia){
         experienciaRepository.save(experiencia);
     }
 
